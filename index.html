@@ -45,11 +45,10 @@
         <div class="containet">
             <div class="hero">
                 <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
+                <button data-modal-open>Заказать услугу</button>
             </div>
         </div>
     </section> 
- 
     <!-- Наши преимущества-->
     <section class="lol"> 
         <div class="containet" >
@@ -380,5 +379,31 @@
         </ul>
     </div>
 </footer>
+
+ <div class="backdrop " data-modal>
+        <div class="modal">
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus saepe eos commodi ea voluptate dolore sit tenetur cupiditate, nam fugit. Dolor inventore magnam laboriosam atque totam voluptatibus rerum voluptate voluptatum!</p>
+             <button class="ewcw" data-modal-close >
+                <svg class="cloze" width= 11px; height= 11px;>
+                    <use href="./images/x.svg">  </use>
+                </svg>
+             </button>
+        </div>
+    </div> 
+    <script>
+    const refs = {
+            openModalBtn: document.querySelector('[data-modal-open]'),
+            closeModalBtn: document.querySelector('[data-modal-close]'),
+            modal: document.querySelector('[data-modal]'),
+        };
+
+        refs.openModalBtn.addEventListener('click', toggleModal);
+        refs.closeModalBtn.addEventListener('click', toggleModal);
+
+        function toggleModal() {
+            refs.modal.classList.toggle('backdrop');
+        } 
+    </script>
+    
 </body>
 </html>
