@@ -321,6 +321,11 @@ p {
   width:11px; 
   heigth:11px;
 } */
+.modal-button{
+display: flex;
+align-items: center;
+
+}
  .ewcw {
    display: inline-block;
    justify-content: center;
