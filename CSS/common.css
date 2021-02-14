@@ -1,0 +1,287 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+/* header */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.text {
+  margin: 0 auto;
+}
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-right: 93px;
+
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.riko {
+  fill: var(--title-text-color);
+  margin-right: 10px;
+}
+/* .riko:hover,
+.riko:focus svg {
+  fill: var(--accent-color);
+} */
+.color {
+  color: var(--accent-color);
+}
+.site-naw .iten:not(:last-child) {
+  padding-right: 50px;
+}
+.site-naw {
+  display: flex;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.sow {
+  display: block;
+  padding-top: 21px;
+}
+.elena {
+  margin-right: 70px;
+}
+.lopo {
+  display: flex;
+
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.contacts {
+  display: flex;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.iten {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.wera {
+  margin-right: 10px;
+  text-align: center;
+}
+ul li {
+  list-style: none;
+}
+.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.conta {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.background {
+  border: 1px solid #ececec;
+  margin: 0 auto;
+}
+/* header container */
+.container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.link.current {
+  color: var(--accent-color);
+}
+.contacts-color {
+  display: flex;
+  align-items: center;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.wera:hover,
+.wera:focus svg {
+  fill: var(--accent-color);
+}
+.riko.contacts-color:hover,
+.riko.contacts-color:focus svg {
+  color: var(--accent-color);
+}
+.contacts-color:hover,
+.contacts-color:focus {
+  color: var(--accent-color);
+}
+.iten:hover svg {
+  fill: var(--accent-color);
+}
+.contacts .iten:not(:last-child) {
+  margin-right: 50px;
+}
+/*main*/
+.containet {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+h1 {
+  color: #ffffff;
+}
+/*подвал*/
+.bottom {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+.finish {
+  padding-bottom: 9px;
+}
+.vova {
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  padding-top: 12px;
+  padding-bottom: 20px;
+}
+.huhu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+}
+.foma {
+  display: block;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.bot-logo {
+  font-size: 26px;
+  line-height: 1.2;
+}
+.white {
+  color: #ffffff;
+}
+.klass {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.bottom .logo {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+}
+.white-adderess {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  padding-bottom: 9px;
+}
+address {
+  font-style: normal;
+}
+.masha:hover,
+.masha:focus {
+  border: 1px solid var(--accent-color);
+  background-color: var(--accent-color);
+}
+.masha:hover svg {
+  fill: #ffffff;
+}
+.masha svg {
+  fill: #ffffff;
+}
+.masha:focus svg {
+  fill: #ffffff;
+}
+.masha:focus {
+  border: 1px solid var(--accent-color);
+}
+.happe {
+  width: 44px;
+  height: 44px;
+}
+
+/* .contacts::before {
+  content: "";
+  color: aqua;
+} */
+.masha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.lalala {
+  fill: #ffffff;
+  background-size: contain;
+}
+.new {
+  color: var(--accent-color);
+}
+.address {
+  color: rgba(255, 255, 255, 0.6);
+}
+.info {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.icon:hover,
+.icon:focus {
+  fill: #ffffff;
+}
