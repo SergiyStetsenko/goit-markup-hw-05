@@ -321,15 +321,17 @@ p {
   width:11px; 
   heigth:11px;
 } */
-.ewcw {
-  border: 1px solid var(--title-text-color);
+ .ewcw {
+   display: inline-block;
+   justify-content: center;
+   text-align: center;
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  top:0;
-  left: 0;
-  background-color: #ffffff;
-}
+  /* top:0;
+  right: 0; */
+  
+} 
   .cloze {
     fill: #212121;
 }
