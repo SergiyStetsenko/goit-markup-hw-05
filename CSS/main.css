@@ -335,19 +335,21 @@ p {
 
 }
  .ewcw {
-   display: block;
-   justify-content: center;
-   text-align: center;
-  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
-  height: 30px; 
-   /* top:0;
-  right: 0;  */
-  background-color: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.1);
-box-sizing: border-box;
-  
-} 
+  height: 30px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.ewcw{
+  fill:#000000;
+}
   .cloze {
     fill: #212121;
 }
