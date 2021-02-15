@@ -157,10 +157,11 @@ ul li {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.wera:hover,
-.wera:focus svg {
+.contacts-color:hover,
+.contacts-color:focus svg {
   fill: var(--accent-color);
 }
+
 .riko.contacts-color:hover,
 .riko.contacts-color:focus svg {
   color: var(--accent-color);
