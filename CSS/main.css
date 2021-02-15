@@ -124,7 +124,7 @@ background: rgba(0, 0, 0, 0.2);
 
 
 .icon {
-  fill: var(--title-text-color);
+  fill: #AFB1B8;
   background-size: contain;
   
 }
@@ -352,7 +352,7 @@ box-sizing: border-box;
     fill: #212121;
 }
 .popru {
-  fill: var(--title-text-color);
+  fill: #AFB1B8;
   width:100%
   height:100%
   background-size:contain;
